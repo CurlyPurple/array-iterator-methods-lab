@@ -176,11 +176,9 @@ let inventorNamedAda = inventors.find((inventor) => {
 // Enter your solution code here: Stillworking on!!!!!!!!!!!!!!!!!
 
 let firstLast = people.map((person) => {
-    return person.split(", ")
-
+       let [last, first] = person.split(", ")
+     return `${first} ${last}`
 })
-
-console.log(firstLast)
 
 // Check your return value:
 console.log('Exercise 5 My Result: ', firstLast)
