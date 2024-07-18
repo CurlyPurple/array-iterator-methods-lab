@@ -171,9 +171,14 @@ let inventorNamedAda = inventors.find((inventor) => {
 // Hint: Use the String.prototype.split method to separate the first and last names. You can split the string using ', ' as the separator.
 // After splitting the names, rearrange them to the "First Last" format.
 
-let firstLast = []
+
 
 // Enter your solution code here: Stillworking on!!!!!!!!!!!!!!!!!
+
+let firstLast = people.map((person) => {
+    return person.split(", ")
+
+})
 
 console.log(firstLast)
 
